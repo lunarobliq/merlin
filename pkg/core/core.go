@@ -35,7 +35,7 @@ import (
 )
 
 // Debug puts Merlin into debug mode and displays debug messages
-var Debug = true
+var Debug = false
 
 // Verbose puts Merlin into verbose mode and displays verbose messages
 var Verbose = true
