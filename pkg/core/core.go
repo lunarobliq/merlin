@@ -35,10 +35,10 @@ import (
 )
 
 // Debug puts Merlin into debug mode and displays debug messages
-var Debug = false
+var Debug = true
 
 // Verbose puts Merlin into verbose mode and displays verbose messages
-var Verbose = false
+var Verbose = true
 
 // CurrentDir is the current directory where Merlin was executed from
 var CurrentDir, _ = os.Getwd()
